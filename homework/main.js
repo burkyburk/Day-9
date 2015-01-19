@@ -74,19 +74,28 @@
 
 
 
- 	var myArray = ['Jacob', 'Erika', 'Charles', 'Paul', 'Ryan', 'Daniel', 'Alex', 'Travis', 'Gabe', "Hughie"];
-    Dash = myArray.join("-");
+//  	var myArray = ['Jacob', 'Erika', 'Charles', 'Paul', 'Ryan', 'Daniel', 'Alex', 'Travis', 'Gabe', "Hughie"];
+//     Dash = myArray.join("-");
 
-console.log(Dash);
+// console.log(Dash);
 
 
 
 // 7.Create a function that takes a string and returns a string with a dash (-) in between each character without using .split or .join.
-	var myArray = ['Jacob', 'Erika', 'Charles', 'Paul', 'Ryan', 'Daniel', 'Alex', 'Travis', 'Gabe', "Hughie"];
-	dashed = myArray.splice();
+	var myString = 'Jacob Erika Charles Paul Ryan Daniel Alex Travis Gabe Hughie';
+	var dash = myString.replace(/\s+/g, '-');
 
-console.log(newClass);	
+console.log(dash);	
+
+
 // 8.Create a function that takes two string strings and returns a string with a dash (-) in between each character without using .split or .join.
+	var myString1 = 'Coffee Beer Wine Milk';
+	var myString2 = 'Chocolate Jam Berries Grass';
+	var dash = myString1.replace(/\s+/g, '-');
+	var dash2 = myString2.replace(/\s+/g, '-');
+	var result = dash.concat(dash2);
+
+console.log(result);
 // 9.Use $('selector').val() and $('selector').click() to re-create your number guessing game without using window.prompt. Use Bootstrap to build the page.
 // 10.Use $('selector').val() and $('selector').click() to re-create your slot machine without using window.prompt. Use Bootstrap to build the page.
 

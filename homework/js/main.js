@@ -99,9 +99,6 @@ function dashString2 {
 }
 
 // 9.Use $('selector').val() and $('selector').click() to re-create your number guessing game without using window.prompt. Use Bootstrap to build the page.
-
-
-
 // 10.Use $('selector').val() and $('selector').click() to re-create your slot machine without using window.prompt. Use Bootstrap to build the page.
 
 
